@@ -1,4 +1,3 @@
-@use "../custom";
 .banner {
   font-family: custom.$font;
   font-weight: bold;
@@ -29,13 +28,6 @@
           transition: 0.5s;
         }
       }
-      .col-sm-5 {
-        .container {
-          img {
-            clip-path: circle(50% at 50% 50%);
-          }
-        }
-      }
     }
   }
 }
@@ -45,8 +37,8 @@
     margin: 0;
     .container {
       .row {
+        margin: 5px;
         display: flex;
-        gap: 2rem;
         text-align: center;
         justify-content: center;
         align-items: center;

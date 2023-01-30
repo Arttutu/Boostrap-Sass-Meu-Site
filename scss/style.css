@@ -10559,6 +10559,11 @@ textarea.form-control-lg {
     margin-top: 3rem;
   }
 }
+body {
+  background-image: url("../../src/img/ffflurry.svg");
+  background-size: cover;
+}
+
 .banner {
   font-family: "Lora", serif;
   font-weight: bold;
@@ -10590,18 +10595,14 @@ textarea.form-control-lg {
   top: -3px;
   transition: 0.5s;
 }
-.banner .container .row .col-sm-5 .container img {
-  -webkit-clip-path: circle(50% at 50% 50%);
-          clip-path: circle(50% at 50% 50%);
-}
 
 @media (max-width: 576px) {
   .banner {
     margin: 0;
   }
   .banner .container .row {
+    margin: 5px;
     display: flex;
-    gap: 2rem;
     text-align: center;
     justify-content: center;
     align-items: center;
