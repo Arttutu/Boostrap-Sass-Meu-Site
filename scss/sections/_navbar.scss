@@ -1,0 +1,54 @@
+@use "../custom";
+
+.navbar {
+  font-family: custom.$font;
+  color: custom.$primary;
+  .nav-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-weight: bold;
+  }
+  .navbar-nav {
+    gap: 2rem;
+    .nav-item,
+    .nav-link {
+      font-weight: bolder;
+      color: custom.$primary;
+    }
+    .nav-item,
+    .nav-link:hover {
+      transition: 0.6s;
+      position: relative;
+      color: custom.$warning;
+      top: -4px;
+    }
+  }
+}
+
+//Dispositivos Móveis Celular
+@media (max-width: 576px) {
+  span {
+    display: none;
+  }
+  #navbarNav {
+    margin-top: 3rem;
+  }
+}
+//Dispositivos Móveis Tablet
+@media (max-width: 768px) {
+  span {
+    display: none;
+  }
+  #navbarNav {
+    margin-top: 3rem;
+  }
+}
+@media (max-width: 992px) {
+  span {
+    display: none;
+  }
+  #navbarNav {
+    margin-top: 3rem;
+  }
+}
