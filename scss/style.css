@@ -10571,6 +10571,9 @@ textarea.form-control-lg {
   padding-top: 200px;
   color: #f0f0f2;
 }
+.banner .container {
+  border-radius: 10px;
+}
 .banner .container .row {
   display: flex;
   align-items: center;
@@ -10596,6 +10599,10 @@ textarea.form-control-lg {
   position: relative;
   top: -3px;
   transition: 0.5s;
+}
+.banner .container .row .col-md-5 .container {
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
 }
 
 @media (max-width: 576px) {
@@ -10642,8 +10649,46 @@ textarea.form-control-lg {
     justify-content: center;
     gap: 2rem;
   }
+  .banner .container .row .container {
+    display: none;
+  }
 }
 body {
   background-image: url("../../src/img/ffflurry.svg");
   background-size: cover;
+}
+
+.sobre {
+  font-family: "Lora", serif;
+  color: #f0f0f2;
+}
+.sobre .container {
+  border-radius: 10px;
+}
+.sobre .container .row h2 {
+  font-weight: bold;
+}
+.sobre .container .row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.sobre .container .row .col-md-3 .container {
+  -webkit-clip-path: circle(50% at 50% 50%);
+          clip-path: circle(50% at 50% 50%);
+}
+
+@media (max-width: 768px) {
+  .sobre {
+    text-align: center;
+  }
+  .sobre .row {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .sobre .row .col-sm .container {
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */

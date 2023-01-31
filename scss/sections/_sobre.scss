@@ -1,0 +1,40 @@
+@use "../custom";
+.sobre {
+  font-family: custom.$font;
+  color: custom.$primary;
+  .container {
+    border-radius: 10px;
+    .row {
+      h2 {
+        font-weight: bold;
+      }
+    }
+    .row {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      .col-md-3 {
+        .container {
+          clip-path: circle(50% at 50% 50%);
+        }
+      }
+    }
+  }
+}
+//Dispositivos Móveis Tablet
+@media (max-width: 768px) {
+  .sobre {
+    text-align: center;
+    .row {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      .col-sm {
+        .container {
+          text-align: center;
+        }
+      }
+    }
+  }
+}
