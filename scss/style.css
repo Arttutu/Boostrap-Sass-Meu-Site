@@ -3609,12 +3609,12 @@ textarea.form-control-lg {
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-  --bs-navbar-active-color: #456173;
+  --bs-navbar-active-color: black;
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: #f0f0f2;
-  --bs-navbar-brand-hover-color: #456173;
+  --bs-navbar-brand-hover-color: black;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -10526,13 +10526,19 @@ textarea.form-control-lg {
 .navbar .navbar-nav .nav-link {
   font-weight: bolder;
   color: #f0f0f2;
+  border: none;
 }
-.navbar .navbar-nav .nav-item,
-.navbar .navbar-nav .nav-link:hover {
-  transition: 0.6s;
-  position: relative;
+.navbar .navbar-nav .nav-item .active,
+.navbar .navbar-nav .nav-link .active {
   color: #456173;
-  top: -4px;
+  font-weight: bold;
+}
+.navbar .navbar-nav .nav-item:hover,
+.navbar .navbar-nav .nav-link:hover {
+  transition: 0.2s;
+  color: #456173;
+  border: solid 1px #f0f0f2;
+  border-radius: 20px;
 }
 
 @media (max-width: 576px) {
