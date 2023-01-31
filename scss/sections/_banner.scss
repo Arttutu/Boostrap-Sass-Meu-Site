@@ -1,3 +1,4 @@
+@use "../custom";
 .banner {
   font-family: custom.$font;
   font-weight: bold;
@@ -7,13 +8,14 @@
     .row {
       display: flex;
       align-items: center;
-      .col-sm {
+      .col-md {
         display: flex;
         flex-direction: column;
+        align-items: center;
         text-align: center;
         gap: 2rem;
       }
-      .col-sm-5 {
+      .col-md-5 {
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -42,7 +44,7 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        .col-sm {
+        .col-md {
           display: flex;
           flex-direction: row;
           justify-content: center;
@@ -65,13 +67,13 @@
         text-align: center;
         justify-content: center;
         align-items: center;
-        .col-sm {
+        .col-md {
           display: flex;
           flex-direction: row;
           justify-content: center;
           gap: 2rem;
         }
-        .col-sm-5 {
+        .col-md-5 {
           display: flex;
           flex-direction: row;
           justify-content: center;
