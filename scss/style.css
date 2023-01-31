@@ -10594,6 +10594,7 @@ textarea.form-control-lg {
 
 @media (max-width: 576px) {
   .banner {
+    padding-top: 100px;
     margin: 0;
   }
   .banner .container .row {
@@ -10612,7 +10613,7 @@ textarea.form-control-lg {
 }
 @media (max-width: 768px) {
   .banner {
-    padding-top: 50px;
+    padding-top: 120px;
     margin: 0;
   }
   .banner .container .row {
