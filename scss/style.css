@@ -10537,8 +10537,8 @@ textarea.form-control-lg {
 .navbar .navbar-nav .nav-link:hover {
   transition: 0.2s;
   color: #456173;
-  border: solid 1px #f0f0f2;
-  border-radius: 20px;
+  position: relative;
+  top: -3px;
 }
 
 @media (max-width: 576px) {
