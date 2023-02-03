@@ -70,7 +70,7 @@
     .container {
       .row {
         display: flex;
-        flex-direction: column;
+        flex-direction: row-reverse;
         gap: 2rem;
         text-align: center;
         justify-content: center;
@@ -88,7 +88,10 @@
           gap: 2rem;
         }
         .container {
-          display: none;
+          img {
+            filter: blur(2px);
+            opacity: 50%;
+          }
         }
       }
     }

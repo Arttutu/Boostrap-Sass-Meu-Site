@@ -10631,7 +10631,7 @@ textarea.form-control-lg {
   }
   .banner .container .row {
     display: flex;
-    flex-direction: column;
+    flex-direction: row-reverse;
     gap: 2rem;
     text-align: center;
     justify-content: center;
@@ -10649,8 +10649,9 @@ textarea.form-control-lg {
     justify-content: center;
     gap: 2rem;
   }
-  .banner .container .row .container {
-    display: none;
+  .banner .container .row .container img {
+    filter: blur(2px);
+    opacity: 50%;
   }
 }
 body {
