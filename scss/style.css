@@ -10613,16 +10613,6 @@ textarea.form-control-lg {
   }
   .banner .container .row {
     margin: 5px;
-    display: flex;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-  }
-  .banner .container .row .col-sm {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    gap: 2rem;
   }
 }
 @media (max-width: 768px) {
@@ -10654,7 +10644,7 @@ textarea.form-control-lg {
     justify-content: center;
     gap: 2rem;
   }
-  .banner .container .row .col-sm-5 .container {
+  .banner .container .row .col-sm-5 .container img {
     display: none;
   }
 }
