@@ -1,0 +1,44 @@
+@use "../custom";
+.projetos {
+  font-family: custom.$font;
+  color: custom.$primary;
+  .container {
+    border-radius: 10px;
+    h2 {
+      font-weight: bold;
+    }
+    .card {
+      text-align: center;
+      width: 400px;
+      height: 300px;
+      img {
+        border: none;
+        height: 100%;
+        width: 100%;
+      }
+      .card-body {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        color: black;
+        transform: translate(-50%, -50%);
+        text-align: center;
+        width: 100%;
+        height: 100%;
+        opacity: 0;
+        padding: 3px;
+        color: custom.$primary;
+        background-color: #456173c2;
+        transition: opacity 0.4s;
+      }
+    }
+    .card:hover .card-body {
+      opacity: 1;
+    }
+
+    .card:hover {
+      background-color: gray;
+      z-index: 2;
+    }
+  }
+}
