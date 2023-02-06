@@ -3,3 +3,13 @@ body {
   background-image: url("../../src/img/ffflurry.svg");
   background-size: cover;
 }
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-in-out;
+}
+
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
+}

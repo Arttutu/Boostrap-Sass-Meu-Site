@@ -21,7 +21,7 @@
       <nav class="navbar fixed-top bg bg-secondary navbar-expand-lg fs-4 p-3">
         <div class="container">
           <div class="nav-logo">
-            <a class="navbar-brand fs-3 me-0" href=" #">Arthur Gomes</a>
+            <a class="navbar-brand fs-1 me-0" href=" #">Arthur Gomes</a>
             <span class="fs-5">Front-End Develope</span>
           </div>
           <button
@@ -69,13 +69,10 @@
             <a href="#"> <i class="fa-brands fa-github fa-2x"></i></a>
             <a href="#"><i class="fa-brands fa-instagram fa-2x"></i></a>
           </div>
-          <div class="col-sm-5">
-            <div class="banner__mensagem">
-              <p class="text-secudary text-center fs-1">Olá, Eu sou</p>
-              <p class="text-secudary text-center fs-1">Arthur Gomes</p>
-              <p class="text-secudary text-center fs-1">
-                Desenvolvedor Front-end|
-              </p>
+          <div class="col-sm-5" id="banner-mensagem">
+            <div class="banner__mensagem d-flex align-items-end">
+              <p id="animate-titulo" class="text-secudary text-center fs-1"></p>
+              <p class="animate-barra text-secudary text-center fs-1"></p>
             </div>
             <button
               type="button"
@@ -104,7 +101,7 @@
     <!-- ////////////////////////////////////////////////////////////////////////////////////////
                                          START SECTION Sobre
       /////////////////////////////////////////////////////////////////////////////////////////////-->
-    <section class="sobre mt-5">
+    <section class="sobre mt-5 animate-on-scroll">
       <div class="container bg-secondary">
         <div class="row mt-5">
           <div class="col-md text-center">
@@ -128,5 +125,8 @@
     </section>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/animacao-sections.js"></script>
+    <script src="js/banner-animacao.js"></script>
   </body>
 </html>

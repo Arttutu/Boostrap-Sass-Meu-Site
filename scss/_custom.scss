@@ -31,7 +31,7 @@ $gray-900: #212529;
 $black: #000;
 //Navbar Active Customize
 $navbar-light-brand-color: $primary;
-$navbar-light-active-color: black;
+$navbar-light-active-color: $warning;
 //Impoirt todos os arquivos do bootstrap sass
 @import "../node_modules/bootstrap/scss/bootstrap.scss";
 //font awesone

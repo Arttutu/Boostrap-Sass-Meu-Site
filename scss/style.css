@@ -3609,12 +3609,12 @@ textarea.form-control-lg {
   --bs-navbar-color: rgba(0, 0, 0, 0.55);
   --bs-navbar-hover-color: rgba(0, 0, 0, 0.7);
   --bs-navbar-disabled-color: rgba(0, 0, 0, 0.3);
-  --bs-navbar-active-color: black;
+  --bs-navbar-active-color: #456173;
   --bs-navbar-brand-padding-y: 0.3125rem;
   --bs-navbar-brand-margin-end: 1rem;
   --bs-navbar-brand-font-size: 1.25rem;
   --bs-navbar-brand-color: #f0f0f2;
-  --bs-navbar-brand-hover-color: black;
+  --bs-navbar-brand-hover-color: #456173;
   --bs-navbar-nav-link-padding-x: 0.5rem;
   --bs-navbar-toggler-padding-y: 0.25rem;
   --bs-navbar-toggler-padding-x: 0.75rem;
@@ -10568,7 +10568,7 @@ textarea.form-control-lg {
 .banner {
   font-family: "Lora", serif;
   font-weight: bold;
-  padding-top: 200px;
+  padding-top: 220px;
   color: #f0f0f2;
 }
 .banner .container {
@@ -10601,6 +10601,7 @@ textarea.form-control-lg {
   transition: 0.5s;
 }
 .banner .container .row .col-sm-5 .container {
+  background-color: #f0f0f2;
   -webkit-clip-path: circle(50% at 50% 50%);
           clip-path: circle(50% at 50% 50%);
 }
@@ -10629,9 +10630,13 @@ textarea.form-control-lg {
     padding-top: 120px;
     margin: 0;
   }
+  .banner .container {
+    background-image: url("../../src/img/logo-avatar-mobile.png");
+    background-color: rgba(255, 255, 255, 0.527);
+  }
   .banner .container .row {
     display: flex;
-    flex-direction: row-reverse;
+    flex-direction: column;
     gap: 2rem;
     text-align: center;
     justify-content: center;
@@ -10649,10 +10654,24 @@ textarea.form-control-lg {
     justify-content: center;
     gap: 2rem;
   }
+  .banner .container .row .col-sm-5 .container {
+    display: none;
+  }
 }
 body {
   background-image: url("../../src/img/ffflurry.svg");
   background-size: cover;
+}
+
+.animate-on-scroll {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.5s ease-in-out;
+}
+
+.animate-on-scroll.animate {
+  opacity: 1;
+  transform: translateY(0);
 }
 
 .sobre {
