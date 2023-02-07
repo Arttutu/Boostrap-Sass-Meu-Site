@@ -20,16 +20,18 @@
         display: flex;
         flex-direction: column;
         align-items: center;
-
-        button {
-          border: none;
-        }
-        button:hover {
-          background-color: custom.$warning;
-          color: custom.$primary;
-          position: relative;
-          top: -3px;
-          transition: 0.5s;
+        a {
+          color: custom.$warning;
+          text-decoration: none;
+          button {
+            border: none;
+          }
+          button:hover {
+            background-color: custom.$warning;
+            position: relative;
+            top: -3px;
+            transition: 0.5s;
+          }
         }
       }
       .col-sm-5 {

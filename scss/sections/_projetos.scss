@@ -11,9 +11,8 @@
       text-align: center;
 
       img {
-        border: none;
-        height: 100%;
-        width: 100%;
+        height: 250px;
+        width: 400px;
       }
       .card-body {
         position: absolute;
@@ -25,7 +24,7 @@
         width: 100%;
         height: 100%;
         opacity: 0;
-        padding: 3px;
+
         color: custom.$primary;
         background-color: #456173c2;
         transition: opacity 0.4s;
