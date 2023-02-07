@@ -30,6 +30,7 @@
         transition: opacity 0.4s;
         a:hover {
           background-color: custom.$warning;
+          color: custom.$primary;
           position: relative;
           top: -3px;
           transition: 0.5s;

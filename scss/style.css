@@ -10620,10 +10620,19 @@ body {
 }
 .projetos .container .card .card-body a:hover {
   background-color: #456173;
+  color: #f0f0f2;
   position: relative;
   top: -3px;
   transition: 0.5s;
 }
 .projetos .card:hover .card-body {
   opacity: 1;
+}
+
+.skills {
+  font-family: "Lora", serif;
+  color: #f0f0f2;
+}
+.skills h2 {
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */

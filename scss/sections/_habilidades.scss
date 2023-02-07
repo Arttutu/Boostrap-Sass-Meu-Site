@@ -1,0 +1,8 @@
+@use "../custom";
+.skills {
+  font-family: custom.$font;
+  color: custom.$primary;
+  h2 {
+    font-weight: bolder;
+  }
+}
