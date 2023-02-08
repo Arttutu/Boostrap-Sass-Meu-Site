@@ -10635,4 +10635,7 @@ body {
 }
 .skills h2 {
   font-weight: bolder;
+}
+.skills .row .descricao {
+  display: none;
 }/*# sourceMappingURL=style.css.map */

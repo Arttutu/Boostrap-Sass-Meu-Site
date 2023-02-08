@@ -10,4 +10,7 @@ $(document).ready(function () {
       }
     })
   })
+  $(".icones").hover(function () {
+    $(this).siblings(".descricao").toggle()
+  })
 })
