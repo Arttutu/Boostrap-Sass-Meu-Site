@@ -6,6 +6,16 @@
     font-weight: bolder;
   }
   .row {
+    .col-lg-2 {
+      a {
+        text-decoration: none;
+        h3 {
+          margin-top: 15px;
+        }
+      }
+    }
+  }
+  .row {
     .descricao {
       display: none;
     }

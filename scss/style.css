@@ -10636,6 +10636,12 @@ body {
 .skills h2 {
   font-weight: bolder;
 }
+.skills .row .col-lg-2 a {
+  text-decoration: none;
+}
+.skills .row .col-lg-2 a h3 {
+  margin-top: 15px;
+}
 .skills .row .descricao {
   display: none;
 }/*# sourceMappingURL=style.css.map */
