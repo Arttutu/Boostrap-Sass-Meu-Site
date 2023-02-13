@@ -1,7 +1,7 @@
 $(document).ready(function () {
   var text = "Olá, Eu sou Arthur Gomes Desenvolvedor Front-end"
   var barra = "|"
-  var typingSpeed = 100
+  var typingSpeed = 70
   var charIndex = 0
 
   setInterval(function () {

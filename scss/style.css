@@ -10634,14 +10634,21 @@ body {
   color: #f0f0f2;
 }
 .skills h2 {
+  margin-top: 15px;
   font-weight: bolder;
 }
-.skills .row .col-lg-2 a {
-  text-decoration: none;
+.skills .container .row .col-6 .row .active {
+  position: relative;
+  top: -5px;
+  transition: 1s;
+  color: #456173;
 }
-.skills .row .col-lg-2 a h3 {
-  margin-top: 15px;
+.skills .container .row .col-6 .row i:hover {
+  position: relative;
+  top: -5px;
+  transition: 1s;
+  color: #456173;
 }
-.skills .row .descricao {
-  display: none;
+.skills .container .row .col-6 .row h3 {
+  margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */

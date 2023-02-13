@@ -3,21 +3,34 @@
   font-family: custom.$font;
   color: custom.$primary;
   h2 {
+    margin-top: 15px;
     font-weight: bolder;
   }
-  .row {
-    .col-lg-2 {
-      a {
-        text-decoration: none;
-        h3 {
-          margin-top: 15px;
+  .container {
+    .row {
+      .col-6 {
+        .row {
+          .active {
+            position: relative;
+            top: -5px;
+            transition: 1s;
+            color: custom.$warning;
+          }
+          i:hover {
+            position: relative;
+            top: -5px;
+            transition: 1s;
+            color: custom.$warning;
+          }
+          h3 {
+            margin-top: 10px;
+          }
         }
       }
-    }
-  }
-  .row {
-    .descricao {
-      display: none;
+      .col-6 {
+        .descricao {
+        }
+      }
     }
   }
 }
