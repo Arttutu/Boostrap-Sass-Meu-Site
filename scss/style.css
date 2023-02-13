@@ -10609,6 +10609,7 @@ body {
   position: absolute;
   top: 50%;
   left: 50%;
+  line-height: 30px;
   transform: translate(-50%, -50%);
   text-align: center;
   width: 100%;
@@ -10636,6 +10637,9 @@ body {
 .skills h2 {
   margin-top: 15px;
   font-weight: bolder;
+}
+.skills .container {
+  border-radius: 10px;
 }
 .skills .container .row .col-6 .row .active {
   position: relative;
