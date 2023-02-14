@@ -30,13 +30,15 @@
     }
 
     .dark {
+      width: 80px;
       display: flex;
+      align-items: center;
+      justify-content: center;
       border: 1px solid custom.$primary;
       border-radius: 20px;
       background-color: custom.$warning;
       #dark-mode-toggle {
         i {
-          padding: 2px;
           transition: 0.2s;
         }
         i:hover {

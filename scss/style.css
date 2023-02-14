@@ -10427,13 +10427,15 @@ textarea.form-control-lg {
   top: -3px;
 }
 .navbar .navbar-nav .dark {
+  width: 80px;
   display: flex;
+  align-items: center;
+  justify-content: center;
   border: 1px solid #f0f0f2;
   border-radius: 20px;
   background-color: #456173;
 }
 .navbar .navbar-nav .dark #dark-mode-toggle i {
-  padding: 2px;
   transition: 0.2s;
 }
 .navbar .navbar-nav .dark #dark-mode-toggle i:hover {

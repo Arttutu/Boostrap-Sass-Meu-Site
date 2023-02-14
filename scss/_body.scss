@@ -1,4 +1,4 @@
-@use "../custom";
+@use "custom";
 body {
   background-image: url("../../src/img/ffflurry.svg");
   background-size: cover;
@@ -13,3 +13,4 @@ body {
   opacity: 1;
   transform: translateY(0);
 }
+$color-mode-type: data;
