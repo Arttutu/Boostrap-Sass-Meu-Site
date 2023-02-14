@@ -1,9 +1,13 @@
-$(document).ready(function () {
-  var text = "Olá, Eu sou Arthur Gomes Desenvolvedor Front-end"
-  var barra = "|"
-  var typingSpeed = 70
-  var charIndex = 0
+var text = "Olá, Eu sou Arthur Gomes Desenvolvedor Front-end"
+var barra = "|"
+var typingSpeed = 70
+var charIndex = 0
 
+$(document).ready(function () {
+  animateTexto()
+  animateSeta()
+})
+function animateTexto() {
   setInterval(function () {
     if (charIndex < text.length) {
       $("#animate-titulo").append(text[charIndex])
@@ -16,4 +20,4 @@ $(document).ready(function () {
       $(".animate-barra").fadeIn(1000)
     }
   }, typingSpeed)
-})
+}

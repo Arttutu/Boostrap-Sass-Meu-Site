@@ -28,6 +28,37 @@
       position: relative;
       top: -3px;
     }
+
+    .dark {
+      display: flex;
+      border: 1px solid custom.$primary;
+      border-radius: 20px;
+      background-color: custom.$warning;
+      #dark-mode-toggle {
+        i {
+          padding: 2px;
+          transition: 0.2s;
+        }
+        i:hover {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: custom.$black;
+        }
+      }
+      #light-mode-toggle {
+        i {
+          padding: 2px;
+          transition: 0.2s;
+        }
+        i:hover {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          background-color: custom.$primary;
+        }
+      }
+    }
   }
 }
 

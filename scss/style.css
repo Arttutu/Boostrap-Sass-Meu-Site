@@ -10426,6 +10426,32 @@ textarea.form-control-lg {
   position: relative;
   top: -3px;
 }
+.navbar .navbar-nav .dark {
+  display: flex;
+  border: 1px solid #f0f0f2;
+  border-radius: 20px;
+  background-color: #456173;
+}
+.navbar .navbar-nav .dark #dark-mode-toggle i {
+  padding: 2px;
+  transition: 0.2s;
+}
+.navbar .navbar-nav .dark #dark-mode-toggle i:hover {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #000;
+}
+.navbar .navbar-nav .dark #light-mode-toggle i {
+  padding: 2px;
+  transition: 0.2s;
+}
+.navbar .navbar-nav .dark #light-mode-toggle i:hover {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #f0f0f2;
+}
 
 @media (max-width: 576px) {
   span {
