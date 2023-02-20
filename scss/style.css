@@ -10480,7 +10480,6 @@ textarea.form-control-lg {
   }
 }
 .banner {
-  background-color: #224a59;
   font-family: "Lora", serif;
   font-weight: bold;
   margin-top: 200px;
@@ -10584,7 +10583,6 @@ body {
 .sobre {
   font-family: "Lora", serif;
   color: #f0f0f2;
-  background-color: #224a59;
 }
 .sobre .container {
   border-radius: 10px;
@@ -10619,7 +10617,6 @@ body {
 .projetos {
   font-family: "Lora", serif;
   color: #f0f0f2;
-  background-color: #224a59;
 }
 .projetos .container {
   border-radius: 10px;
@@ -10663,7 +10660,6 @@ body {
 .skills {
   font-family: "Lora", serif;
   color: #f0f0f2;
-  background-color: #224a59;
 }
 .skills h2 {
   margin-top: 15px;
