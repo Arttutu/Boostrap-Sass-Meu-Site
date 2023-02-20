@@ -1,7 +1,6 @@
 @use "../custom";
 .projetos {
   font-family: custom.$font;
-  color: custom.$primary;
   .container {
     border-radius: 10px;
     h2 {
@@ -25,12 +24,11 @@
         width: 100%;
         height: 100%;
         opacity: 0;
-        color: custom.$primary;
+        color: custom.$warning;
         background-color: #456173c2;
         transition: opacity 0.4s;
         a:hover {
-          background-color: custom.$warning;
-          color: custom.$primary;
+          color: custom.$warning;
           position: relative;
           top: -3px;
           transition: 0.5s;

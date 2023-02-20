@@ -16,7 +16,7 @@
   // workbench
   "workbench.editor.enablePreview": false,
   "workbench.iconTheme": "vs-seti",
-  "workbench.colorTheme": "Community Material Theme Ocean",
+  "workbench.colorTheme": "Winter is Coming (Light - No Italics)",
 
   // prettier
   "editor.defaultFormatter": "esbenp.prettier-vscode",

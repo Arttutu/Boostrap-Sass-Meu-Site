@@ -1,4 +1,4 @@
-var text = "Olá, Eu sou Arthur Gomes Desenvolvedor Front-end"
+var text = "Olá, Eu sou Arthur Gomes Desenvolvedor de software"
 var barra = "|"
 var typingSpeed = 70
 var charIndex = 0

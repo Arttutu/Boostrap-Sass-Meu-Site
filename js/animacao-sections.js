@@ -4,7 +4,7 @@ $(document).ready(function () {
       var element = $(this)
       if (
         element.offset().top <
-        $(window).scrollTop() + $(window).height() * 0.9
+        $(window).scrollTop() + $(window).height() * 0.7
       ) {
         element.addClass("animate")
       }
