@@ -2,6 +2,7 @@
 .projetos {
   font-family: custom.$font;
   color: custom.$primary;
+  background-color: custom.$secondary;
   .container {
     border-radius: 10px;
     h2 {
@@ -29,6 +30,7 @@
         background-color: rgba(0, 0, 0, 0.603);
         transition: opacity 0.4s;
         a:hover {
+          background-color: custom.$black;
           color: custom.$warning;
           position: relative;
           top: -3px;

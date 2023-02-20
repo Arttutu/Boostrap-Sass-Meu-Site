@@ -1,8 +1,9 @@
 @use "../custom";
 .banner {
+  background-color: custom.$secondary;
   font-family: custom.$font;
   font-weight: bold;
-  padding-top: 220px;
+  margin-top: 200px;
   color: custom.$primary;
   .container {
     border-radius: 10px;

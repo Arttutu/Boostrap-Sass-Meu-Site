@@ -10480,9 +10480,10 @@ textarea.form-control-lg {
   }
 }
 .banner {
+  background-color: #224a59;
   font-family: "Lora", serif;
   font-weight: bold;
-  padding-top: 220px;
+  margin-top: 200px;
   color: #f0f0f2;
 }
 .banner .container {
@@ -10583,6 +10584,7 @@ body {
 .sobre {
   font-family: "Lora", serif;
   color: #f0f0f2;
+  background-color: #224a59;
 }
 .sobre .container {
   border-radius: 10px;
@@ -10617,6 +10619,7 @@ body {
 .projetos {
   font-family: "Lora", serif;
   color: #f0f0f2;
+  background-color: #224a59;
 }
 .projetos .container {
   border-radius: 10px;
@@ -10647,6 +10650,7 @@ body {
   transition: opacity 0.4s;
 }
 .projetos .container .card .card-body a:hover {
+  background-color: #000;
   color: #a3ab78;
   position: relative;
   top: -3px;
@@ -10659,6 +10663,7 @@ body {
 .skills {
   font-family: "Lora", serif;
   color: #f0f0f2;
+  background-color: #224a59;
 }
 .skills h2 {
   margin-top: 15px;
