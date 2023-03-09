@@ -15,7 +15,7 @@
       text-align: center;
       word-wrap: break-word;
       overflow-y: hidden;
-
+      transition: 0.5s;
       img {
         height: 250px;
         width: auto;
@@ -41,14 +41,14 @@
         }
       }
     }
-    #saiba-mais {
+    #saibaMais {
       border-radius: 5px;
       padding: 20px;
       font-weight: bold;
       font-size: 1.2rem;
       transition: 0.5s;
     }
-    #saiba-mais:hover {
+    #saibaMais:hover {
       position: relative;
       top: -10px;
       background-color: custom.$warning;
