@@ -4,14 +4,14 @@ $(document).ready(function () {
 })
 
 const botaoSaibaMais = () => {
-  $("#saiba-mais").click(() => {
+  $("#saiba").click(() => {
     if (saibaMais === 0) {
       $(".card").removeClass("oculto")
-      $("#saiba-mais").html("Saiba menos")
+      $("#saiba").html("Saiba menos")
       saibaMais = 1
     } else if (saibaMais === 1) {
       $(".mostrar").addClass("oculto")
-      $("#saiba-mais").html("Saiba mais")
+      $("#saiba").html("Saiba mais")
       saibaMais = 0
     }
   })

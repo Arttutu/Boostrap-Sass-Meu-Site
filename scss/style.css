@@ -10631,6 +10631,7 @@ body {
   text-align: center;
   word-wrap: break-word;
   overflow-y: hidden;
+  transition: 0.5s;
 }
 .projetos .container .card img {
   height: 250px;
@@ -10656,14 +10657,18 @@ body {
   top: -3px;
   transition: 0.5s;
 }
-.projetos .container #saiba-mais {
+.projetos .container .card .card-body .card-title {
+  color: #a3ab78;
+  font-weight: bolder;
+}
+.projetos .container #saiba {
   border-radius: 5px;
   padding: 20px;
   font-weight: bold;
   font-size: 1.2rem;
   transition: 0.5s;
 }
-.projetos .container #saiba-mais:hover {
+.projetos .container #saiba:hover {
   position: relative;
   top: -10px;
   background-color: #a3ab78;
