@@ -10668,18 +10668,18 @@ body {
 .skills .container {
   border-radius: 10px;
 }
-.skills .container .row .col-6 .row .active {
+.skills .container .row .col-lg-6 .row .active {
   position: relative;
   top: -5px;
   transition: 1s;
   color: #a3ab78;
 }
-.skills .container .row .col-6 .row i:hover {
+.skills .container .row .col-lg-6 .row i:hover {
   position: relative;
   top: -5px;
   transition: 1s;
   color: #a3ab78;
 }
-.skills .container .row .col-6 .row h3 {
+.skills .container .row .col-lg-6 .row h3 {
   margin-top: 10px;
 }/*# sourceMappingURL=style.css.map */
