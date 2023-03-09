@@ -10624,6 +10624,9 @@ body {
 .projetos .container h2 {
   font-weight: bold;
 }
+.projetos .container .oculto {
+  display: none;
+}
 .projetos .container .card {
   text-align: center;
   word-wrap: break-word;
@@ -10652,6 +10655,18 @@ body {
   position: relative;
   top: -3px;
   transition: 0.5s;
+}
+.projetos .container #saiba-mais {
+  border-radius: 5px;
+  padding: 20px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  transition: 0.5s;
+}
+.projetos .container #saiba-mais:hover {
+  position: relative;
+  top: -10px;
+  background-color: #a3ab78;
 }
 .projetos .card:hover .card-body {
   opacity: 1;

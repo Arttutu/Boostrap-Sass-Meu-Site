@@ -8,6 +8,9 @@
     h2 {
       font-weight: bold;
     }
+    .oculto {
+      display: none;
+    }
     .card {
       text-align: center;
       word-wrap: break-word;
@@ -37,6 +40,18 @@
           transition: 0.5s;
         }
       }
+    }
+    #saiba-mais {
+      border-radius: 5px;
+      padding: 20px;
+      font-weight: bold;
+      font-size: 1.2rem;
+      transition: 0.5s;
+    }
+    #saiba-mais:hover {
+      position: relative;
+      top: -10px;
+      background-color: custom.$warning;
     }
   }
   .card:hover .card-body {
