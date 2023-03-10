@@ -10624,7 +10624,7 @@ body {
 .projetos .container {
   border-radius: 10px;
 }
-.projetos .container h2 {
+.projetos .container h3 {
   font-weight: bold;
 }
 .projetos .container .oculto {
@@ -10705,4 +10705,5 @@ body {
 }
 .skills .container .row .col-lg-6 .row h3 {
   margin-top: 10px;
+  font-weight: bolder;
 }/*# sourceMappingURL=style.css.map */
