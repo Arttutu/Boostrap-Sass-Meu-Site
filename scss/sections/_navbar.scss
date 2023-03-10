@@ -10,24 +10,8 @@
     align-items: center;
     font-weight: bold;
   }
-  .fa-bars,
-  .fa-times {
+  .fa-bars {
     color: custom.$primary;
-  }
-  .navbar-toggler .icon-collapsed {
-    display: inline-block;
-  }
-
-  .navbar-toggler.collapsed .icon-collapsed {
-    display: none;
-  }
-
-  .navbar-toggler.collapsed .icon-not-collapsed {
-    display: inline-block;
-  }
-
-  .navbar-toggler .icon-not-collapsed {
-    display: none;
   }
 
   .navbar-nav {

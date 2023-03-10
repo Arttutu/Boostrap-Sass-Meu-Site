@@ -10405,21 +10405,8 @@ textarea.form-control-lg {
   align-items: center;
   font-weight: bold;
 }
-.navbar .fa-bars,
-.navbar .fa-times {
+.navbar .fa-bars {
   color: #f0f0f2;
-}
-.navbar .navbar-toggler .icon-collapsed {
-  display: inline-block;
-}
-.navbar .navbar-toggler.collapsed .icon-collapsed {
-  display: none;
-}
-.navbar .navbar-toggler.collapsed .icon-not-collapsed {
-  display: inline-block;
-}
-.navbar .navbar-toggler .icon-not-collapsed {
-  display: none;
 }
 .navbar .navbar-nav {
   gap: 2rem;
