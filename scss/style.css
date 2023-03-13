@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -10396,7 +10396,7 @@ textarea.form-control-lg {
   }
 }
 .navbar {
-  font-family: "Sono", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #f0f0f2;
 }
 .navbar .nav-logo {
@@ -10483,7 +10483,7 @@ textarea.form-control-lg {
   }
 }
 .banner {
-  font-family: "Sono", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   font-weight: bold;
   margin-top: 200px;
   color: #f0f0f2;
@@ -10584,7 +10584,7 @@ body {
 }
 
 .sobre {
-  font-family: "Sono", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #f0f0f2;
 }
 .sobre .container {
@@ -10618,7 +10618,7 @@ body {
   }
 }
 .projetos {
-  font-family: "Sono", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #f0f0f2;
 }
 .projetos .container {
@@ -10681,7 +10681,7 @@ body {
 }
 
 .skills {
-  font-family: "Sono", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #f0f0f2;
 }
 .skills h2 {
@@ -10709,7 +10709,7 @@ body {
 }
 
 .contato {
-  font-family: "Sono", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   color: #f0f0f2;
 }
 .contato .container {
