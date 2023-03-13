@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Lora&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Sono&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -10396,7 +10396,7 @@ textarea.form-control-lg {
   }
 }
 .navbar {
-  font-family: "Lora", serif;
+  font-family: "Sono", sans-serif;
   color: #f0f0f2;
 }
 .navbar .nav-logo {
@@ -10483,7 +10483,7 @@ textarea.form-control-lg {
   }
 }
 .banner {
-  font-family: "Lora", serif;
+  font-family: "Sono", sans-serif;
   font-weight: bold;
   margin-top: 200px;
   color: #f0f0f2;
@@ -10584,7 +10584,7 @@ body {
 }
 
 .sobre {
-  font-family: "Lora", serif;
+  font-family: "Sono", sans-serif;
   color: #f0f0f2;
 }
 .sobre .container {
@@ -10618,7 +10618,7 @@ body {
   }
 }
 .projetos {
-  font-family: "Lora", serif;
+  font-family: "Sono", sans-serif;
   color: #f0f0f2;
 }
 .projetos .container {
@@ -10681,7 +10681,7 @@ body {
 }
 
 .skills {
-  font-family: "Lora", serif;
+  font-family: "Sono", sans-serif;
   color: #f0f0f2;
 }
 .skills h2 {
@@ -10706,4 +10706,28 @@ body {
 .skills .container .row .col-lg-6 .row h3 {
   margin-top: 10px;
   font-weight: bolder;
+}
+
+.contato {
+  font-family: "Sono", sans-serif;
+  color: #f0f0f2;
+}
+.contato .container {
+  border-radius: 10px;
+}
+.contato .container .row a {
+  text-decoration: none;
+  transition: 0.5s;
+}
+.contato .container .row a p {
+  font-weight: bold;
+}
+.contato .container .row a:hover {
+  position: relative;
+  top: -5px;
+  color: #a3ab78;
+}
+.contato .container .row span {
+  color: #a3ab78;
+  margin-top: 50px;
 }/*# sourceMappingURL=style.css.map */

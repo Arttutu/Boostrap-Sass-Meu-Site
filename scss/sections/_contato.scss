@@ -1,0 +1,28 @@
+@use "../custom";
+.contato {
+  font-family: custom.$font;
+  color: custom.$primary;
+  .container {
+    border-radius: 10px;
+    .row {
+      a {
+        text-decoration: none;
+        transition: 0.5s;
+        p {
+          font-weight: bold;
+        }
+      }
+      a:hover {
+        position: relative;
+        top: -5px;
+        color: custom.$warning;
+      }
+    }
+    .row {
+      span {
+        color: custom.$warning;
+        margin-top: 50px;
+      }
+    }
+  }
+}
