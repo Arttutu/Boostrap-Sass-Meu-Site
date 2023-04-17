@@ -1,9 +1,12 @@
 @use "../custom";
-
+.navegacao {
+  width: 100px;
+}
 .navbar {
   font-family: custom.$font;
   color: custom.$primary;
-
+  box-sizing: border-box;
+  margin: 0;
   .nav-logo {
     display: flex;
     flex-direction: column;
@@ -15,7 +18,7 @@
   }
 
   .navbar-nav {
-    gap: 2rem;
+    gap: 1rem;
     .nav-item,
     .nav-link {
       font-weight: bolder;

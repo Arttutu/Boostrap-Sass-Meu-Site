@@ -1,5 +1,6 @@
 @use "../custom";
 .banner {
+  display: flex;
   font-family: custom.$font;
   font-weight: bold;
   margin-top: 200px;
@@ -43,11 +44,20 @@
     }
   }
 }
+.banner .container .row .col-sm-5 #banner-mensagem .banner__mensagem {
+  background-color: red;
+}
+
 //Dispositivos Móveis Celular
 @media (max-width: 576px) {
   .banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center !important;
     padding-top: 100px;
     margin: 0;
+    background-color: red !important;
     .container {
       .row {
         margin: 5px;
