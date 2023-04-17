@@ -17,6 +17,11 @@
         top: -5px;
         color: custom.$warning;
       }
+      .col-4 {
+        p {
+          flex-wrap: wrap;
+        }
+      }
     }
     .row {
       .rodape {
