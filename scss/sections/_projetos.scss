@@ -14,10 +14,10 @@
     .card {
       text-align: center;
       word-wrap: break-word;
-      overflow-y: hidden;
+      height: auto;
       transition: 0.5s;
       img {
-        height: 250px;
+        height: 300px;
         width: auto;
       }
       .card-body {
