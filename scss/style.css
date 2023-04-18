@@ -10512,10 +10512,6 @@ textarea.form-control-lg {
           clip-path: circle(50% at 50% 50%);
 }
 
-.banner .container .row .col-sm-5 #banner-mensagem .banner__mensagem {
-  background-color: red;
-}
-
 @media (max-width: 576px) {
   .banner {
     display: flex;
@@ -10524,7 +10520,6 @@ textarea.form-control-lg {
     align-items: center !important;
     padding-top: 100px;
     margin: 0;
-    background-color: red !important;
   }
   .banner .container .row {
     margin: 5px;
