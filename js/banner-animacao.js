@@ -5,7 +5,6 @@ var charIndex = 0
 
 $(document).ready(function () {
   animateTexto()
-  animateSeta()
 })
 function animateTexto() {
   setInterval(function () {
